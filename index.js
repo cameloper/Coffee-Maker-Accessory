@@ -42,11 +42,11 @@ function CoffeeMaker(log, config) {
 
       setLightbulbOnCharacteristic: function (on, next) {
         if(on) {
-          gpio.write(this.pin, 0, function(err) {
+          gpio.write(this.pin, 1, function(err) {
             next(err);
           });
         } else {
-          gpio.write(this.pin, 1, function(err) {
+          gpio.write(this.pin, 0, function(err) {
             next(err);
           });
         }
