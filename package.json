@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/cameloper/Coffee-Maker-Accessory/issues"
   },
-  "homepage": "https://github.com/cameloper/Coffee-Maker-Accessory#readme"
+  "homepage": "https://github.com/cameloper/Coffee-Maker-Accessory#readme",
   "dependencies": {
       "rpi-gpio": "^2.1.2"
   }
