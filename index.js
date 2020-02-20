@@ -36,7 +36,7 @@ function CoffeeMaker(log, config) {
 
       getLightbulbOnCharacteristic: function (next) {
           gpio.read(this.pin, function(err, value) {
-            return next(err, !value);
+            return next(err, value);
           })
       },
 
