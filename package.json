@@ -1,21 +1,22 @@
 {
   "name": "coffee-maker-accessory",
   "version": "1.0.0",
-  "description": "GPIO powered coffee maker plugin for homebridge",
+  "description": "GPIO coffee maker plugin for homebridge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no test command specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameloper/Coffee-Maker-Accessory.git"
   },
   "keywords": [
     "homebridge-plugin"
   ],
-  "engines": {
-    "node": ">=0.12.0",
-    "homebridge": ">=0.2.0"
-  },
   "author": "cameloper",
   "license": "ISC",
-  "dependencies": {
-    "rpi-gpio": "^2.1.2"
-  }
+  "bugs": {
+    "url": "https://github.com/cameloper/Coffee-Maker-Accessory/issues"
+  },
+  "homepage": "https://github.com/cameloper/Coffee-Maker-Accessory#readme"
 }
