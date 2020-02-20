@@ -4,7 +4,7 @@ const gpio = require('rpi-gpio');
 module.exports = function (homebridge) {
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
-    homebridge.registerAccessory("coffee-maker-accessory", "CoffeeMaker", CoffeeMaker);
+    homebridge.registerAccessory("homebridge-coffee-maker-accessory", "CoffeeMaker", CoffeeMaker);
 };
 
 function CoffeeMaker(log, config) {
