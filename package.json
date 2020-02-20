@@ -14,8 +14,8 @@
     "homebridge-plugin"
   ],
   "engines": {
-      "node": ">=0.12.0",
-      "homebridge": ">=0.2.0"
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
   },
   "author": "cameloper",
   "license": "ISC",
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/cameloper/Coffee-Maker-Accessory#readme",
   "dependencies": {
-      "rpi-gpio": "^2.1.2"
+    "rpi-gpio": "^2.1.2"
   }
 }
